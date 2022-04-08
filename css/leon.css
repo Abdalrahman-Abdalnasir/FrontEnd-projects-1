@@ -326,7 +326,14 @@
 }
 .portfolio .portfolio-content .card {
   background-color: white;
-  width: 260px;
+  width: 276px;
+    margin: 10px 30px;
+}
+@media (min-width: 767px) {
+  .portfolio .portfolio-content .card  {
+    width: 276px;
+    margin: 10px 30px;
+}
 }
 .portfolio .portfolio-content .card img {
   max-width: 100%;
